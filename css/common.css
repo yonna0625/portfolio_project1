@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,code,form,fieldset,legend,input,
+textarea,p,blockquote,th,td{margin:0; padding:0;}
+
+img{border:none; vertical-align:top;}
+
+fieldset{border:none;}
+
+li{list-style:none;}
+
+input,select,button,select{vertical-align:middle;}
+
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+
+address,caption,cite,code,
+dfn,em,strong,th,var{font-style:normal; font-weight:normal;}
+
+/* 기본 레이아웃 */
+body{overflow-x:hidden;}
+#wrap{width: 1600px; margin: 0 auto; background-color: #ffffff; position: relative;}
+#header{height: 181px; position: relative; z-index: 10;}
+
+/* 기본 글꼴 및 링크 텍스트 꾸미기 */
+body{font-size: 12px; font-family: 'Nanum Gothic', gulim, "굴림", sans-serif; color: #333333; background-color: #999999; min-width: 1600px;}
+select, input, textarea, button{font: 12px gulim, "굴림", sans-serif; color: #333333;}
+a{color: #333333; text-decoration: none;}
+.fl{float:left;}
+.fr{float:right;}
+.cf:after{content: ' '; display: block; clear:both;}
+.hide, legend, caption, hr{position: absolute; left: -99999px; width: 0; height: 0; overflow: hidden; text-indent: -99999px;}
+.ellipsis {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+h2{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+p{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.wrap01{width: 106px;}
+li{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+dd{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
